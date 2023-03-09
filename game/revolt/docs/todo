@@ -1,0 +1,71 @@
+If 50:50 has already been used, the friend should not select one of the missing answers as his guess!
+
+F in 'flop' getting chopped off
+Takes too long to load
+Words chop off into next line
+
+Profile pic? Maybe OK
+Stop repeat questions!
+
+Show correct answer on losing ... so the student can learn what he got wrong!
+Play again button!
+
+Implement:
+Backend {questions, answers, lifelines, recording winner scores for profile and highscores and course grade}
+Loading screen
+Loser answer, orange flash timer before showing losing screen
+Walk away button - background color, logo, font victory screen
+Game over sound (https://www.youtube.com/watch?v=TN3ng5Y3-C4)
+Stop background music on game over
+
+Replay button on Game Over screens
+
+Background is not looping...
+Timeup sound
+Audience poll sound
+FiftyFifty sound
+Phone result
+Phone ring sound
+
+
+Ogg sound files for firefox, include clapping etc.
+Add winner/loser screens (sounds)
+
+Resize button images
+Remove 5th option from question and display
+
+50:50
+Phone a friend: First implementation, random answer with high probability of correct answer; Future, actually select another system user and get an answer!
+Audience Poll: 1. Determine question difficulty and randomize accordingly; future: ask classmates
+  Graphing the poll results
+
+Lifeline icons
+
+Keys and Mouseclick options (A,B,C,D or 1,2,3,4 keys can also be used to answer)
+
+Camera to take user pic and include as contestant pic option
+
+"Final Answer?" popup with choices to Yes, No, Walk Away
+
+Answering and checking a question
+Loser and Winner Screens
+
+Question read aloud after it displays if possible?
+
+Question timer: 30 seconds remaining
+
+"Around the throat" Final Answer .... exactly correct ... and he's won $200
+Money box
+
+10 questions away from a million ...
+
+Sound effects ... mysterious ... clapping
+
+----
+Lights on the screen for effect
+----
+Blue background screen
+15 questions: 100,200,300,500,1000,2000,4000,8000,16000,32000,64000,125000,250000,500000,1000000
+Lines between boxes
+
+Selected choice becomes orange, gets checked and if correct flashes green!

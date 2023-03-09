@@ -1,0 +1,13 @@
+{
+  "name": "gamedev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "browser-sync start --server --config bs-config.js"
+  }
+
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Fullscreen ImpactJS Game</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		#game-iframe {
+			width: 100%;
+			height: 100%;
+			border: none;
+		}
+	</style>
+</head>
+<body>
+	<button id="toggle-fullscreen-btn">Toggle Fullscreen</button>
+	<iframe id="game-iframe" src="/game/revolt/game.html"></iframe>
+
+	<script>
+		// Get the iFrame element
+		var iframe = document.getElementById('game-iframe');
+
+		// Get the button element
+		var toggleFullscreenBtn = document.getElementById('toggle-fullscreen-btn');
+
+		// Add click event listener to toggle fullscreen on button click
+		toggleFullscreenBtn.addEventListener('click', function() {
+			if (document.fullscreenElement) {
+				// If already in fullscreen, exit fullscreen mode
+				document.exitFullscreen();
+			} else {
+				// If not in fullscreen, enter fullscreen mode
+				iframe.requestFullscreen();
+			}
+		});
+        
+	</script>
+</body>
+</html>

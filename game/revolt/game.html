@@ -1,0 +1,55 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script>
+    function init() { window.parent.setUpFrame(); return true; }
+</script>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    #game-iframe {
+        /* width: 100%;
+        height: 100%; */
+        border: none;
+    }
+
+    /* canvas {
+        width: 640px;
+        height: 480px;
+    } */
+    canvas {
+        width: 100%;
+        height: 100%;
+    }
+</style>
+<!-- <button id="toggle-fullscreen-btn">Toggle Fullscreen</button> -->
+<canvas id="canvas" onload="init();"></canvas>
+<script src="/game/config.js"></script>
+<script src="/game/revolt/impact/impact.js"></script>
+<script src="/game/revolt/main.js"></script>
+<script src="/browser-sync/browser-sync-client.js"></script>
+<script>
+//     // Get the canvas element
+//     var canvas = document.getElementById('canvas');
+
+//     // Listen to the fullscreenchange event of the document
+//     document.addEventListener('fullscreenchange', function () {
+//         // Check if the document is in full screen mode
+//         if (document.fullscreenElement) {
+//             // If in full screen mode, set the canvas size to match the screen size
+//             canvas.width = screen.width;
+//             canvas.height = screen.height;
+//         } else {
+//             // If not in full screen mode, set the canvas size to its original size
+//             canvas.width = 640;
+//             canvas.height = 480;
+//         }
+//     });
+</script>
+
+<!-- <script src="/assets/game/config.js"></script>
+<script src="/assets/game/revolt/impact/impact.js"></script>
+<script src="/assets/game/revolt/main.js"></script> -->
